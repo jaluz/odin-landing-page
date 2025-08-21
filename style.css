@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -8,8 +12,8 @@ body {
     /* align-items: stretch; */
 }
 
-img {
-    width: 250px;
+img#heroimg {
+    width: 450px;
 }
 
 a {
@@ -41,29 +45,26 @@ button#button-hero {
     color: white;
 }
 
+
+/* header section */
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    /* gap: 650px; */
-    /* height: 60px; */
-}
-
-.margin{
-    align-items: center;
-    justify-content: space-between;
+    padding: 0 160px;
     display: flex;
-    width: 1400px;
-    margin: 0 auto;
-    flex-shrink: 1;
+    justify-content: space-between;
 }
 
+
+
+/* hero section */
 .hero {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 450px;
-    /* gap: 24px; */
+    padding: 0 160px;
 }
 
 .title {
@@ -85,6 +86,11 @@ button#button-hero {
 
 
 
+/* cards section */
+.container{
+    padding: 0 160px;
+}
+
 .subtitle {
     text-align: center;
     font-size: 36px;
@@ -93,21 +99,23 @@ button#button-hero {
     padding: 50px;
 }
 
+img#card {
+    width: 170px;
+    margin-bottom: 10px;
+}
+
 .cards {
     display: flex;
-    /* flex-wrap: wrap; */
-    gap: 120px;
-    width: 100px;
-}
-
-.info{
-    width: 150px;
-    gap: 16px;
+    justify-content: center;
+    gap: 60px;
+    width: 1100px;
     text-align: center;
+    /* padding: 0 160px; */
 }
 
 
-/* quote section */
+
+/* phrase section */
 .quote {
     background-color: #E5E7EB;
     height: 500px;
@@ -128,10 +136,10 @@ button#button-hero {
 }
 
 .author {
-    /* display: flex; */
+    width: 700px;
     font-size: 20px;
     font-weight: 900;
-    justify-content: end;
+    text-align: right;
 }
 
 
@@ -142,32 +150,29 @@ button#button-hero {
     color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
-    /* width: 1400px; */
     margin: 0 auto;
     margin-bottom: 180px;
-    /* flex-shrink: 1; */
     border-radius: 10px;
 }
 
-.box{
-    width: 1400px;
+.box {
+    width: 1100px;
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 150px;
 }
 
-.text1{
+.text1 {
     font-weight: bold;
     font-size: 24px;
 }
 
-.text2{
+.text2 {
     font-size: 18px;
 }
 
-button#action{
+button#action {
     background: #3882F6;
     border: 2px solid white;
     color: white;
