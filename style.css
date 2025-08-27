@@ -46,7 +46,7 @@ button {
     padding: 24px 250px 0 250px;
     display: flex;
     justify-content: space-between;
-    flex: 1;
+    gap: 80px;
 }
 
 
@@ -189,11 +189,10 @@ h3 {
 
 .box {
     background-color: #3882F6;
-    height: 180px;
     border-radius: 10px;
     color: #E5E7EB;
     width: 80%;
-    padding: 0 150px;
+    padding: 64px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
